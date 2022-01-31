@@ -1,11 +1,11 @@
 {
-  "name": "slashworks/contao-trackingmanager-bundle",
+  "name": "mediamotionag/contao-trackingmanager-bundle",
   "type": "contao-bundle",
   "description": "Contao Tracking Manager",
   "license": "LGPL-3.0-or-later",
   "authors": [
     {
-      "name": "slashworks",
+      "name": "slashworks extended by mediamotion",
       "homepage": "https://github.com/slashworks"
     }
   ],
