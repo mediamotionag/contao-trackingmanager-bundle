@@ -12,7 +12,7 @@ use Symfony\Component\VarDumper\VarDumper;
 class ParseFrontendTemplate
 {
 
-    public function checkCookieDependency(string $buffer, string $template)
+    public function checkCookieDependency(string $buffer, $template)
     {
         $analyticsTemplates = array_keys(Controller::getTemplateGroup('analytics'));
         if (!in_array($template, $analyticsTemplates)) {
